@@ -1,0 +1,146 @@
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: black;
+    transition-duration: 1.5s;
+}
+
+button:hover {
+    background-color: goldenrod;
+    padding: 15px 35px;
+    border-radius: 15px;
+    font-size: 2.5em;
+}
+
+.botoninfo {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(245,245,245)
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: goldenrod   ;
+    font-size: 1.6em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header a {
+    margin: 0;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.6em;
+    transition-duration: 1s;
+}
+
+header a:hover {
+    color: goldenrod;
+}
+
+#nuestros-programas {
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-programas .container {
+    padding: 100px 0px;
+}
+
+#nuestros-programas h2 {
+    margin-top: 0;
+    font-size: 3.5em;
+}
+
+#nuestros-programas p {
+    display: none;
+}
+
+#nuestros-programas .carta {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+
+#nuestros-programas .carta:hover {
+    padding: 60px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("IMAGEN/Baño/Baño.jpg");
+    transition-duration: 2s;
+    background-size: cover;
+}
+
+.carta:first-child:hover {
+    background-image: url("IMAGEN/Baño/Baño.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("IMAGEN/Cocina/Cocina.jpg");
+    background-size: contain;
+    
+}
+
+.carta:nth-child(2):hover{
+    background-image: url("IMAGEN/Cocina/Cocina.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("IMAGEN/Baño/Piso\ pipe\ \(2\).jpg");
+    background-size: cover;
+}
+
+.carta:nth-child(3):hover {
+    background-image: url("IMAGEN/Baño/Piso\ pipe.jpg")
+}
